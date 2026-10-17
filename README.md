@@ -1,8 +1,6 @@
-
 # 计算图
+
 ## 实践1计算图
-```markdown
-## 实践1计算图示例（简单运算）
 ```mermaid
 graph LR
     X[x] --> A["*  a=x*y"]
@@ -11,8 +9,6 @@ graph LR
     A --> C["+  c=a+b"]
     B --> C
     C --> D["pow  f=c²"]
-
-## 实践2计算图
 flowchart LR
     X["X<br/>(1,2)"] --> L1["Linear: W1,b1<br/>Z₁ = XW₁+b₁<br/>(1,3)"]
     L1 --> ReLU["ReLU<br/>A₁ = max(0,Z₁)<br/>(1,3)"]
